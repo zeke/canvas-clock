@@ -1,0 +1,21 @@
+body {
+  background-color: #EEE;
+}
+
+#clock-wrapper {
+  width: 600px;
+  height: 600px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+@media all and (max-width: 480px) {
+  #clock-wrapper {
+    width: 300px;
+    height: 300px;
+  }
+}
