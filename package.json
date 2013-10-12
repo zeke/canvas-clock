@@ -1,7 +1,7 @@
 {
   "name": "canvas-clock",
   "version": "0.0.0",
-  "description": "A simple radial clock, implemented in canvas.",
+  "description": "A simple radial clock, implemented in Canvas.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +13,9 @@
   "keywords": [
     "canvas",
     "browser",
+    "browserify",
     "clock",
+    "time",
     "request-animation-frame"
   ],
   "author": "zeke",
