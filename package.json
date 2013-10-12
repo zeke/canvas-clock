@@ -1,0 +1,30 @@
+{
+  "name": "canvas-clock",
+  "version": "0.0.0",
+  "description": "A simple radial clock, implemented in canvas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeke/canvas-clock.git"
+  },
+  "keywords": [
+    "canvas",
+    "browser",
+    "clock",
+    "request-animation-frame"
+  ],
+  "author": "zeke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeke/canvas-clock/issues"
+  },
+  "dependencies": {
+    "request-animation-frame": "~0.1.1",
+    "domready": "~0.2.12",
+    "easing": "0.0.4",
+    "tween": "~0.8.0"
+  }
+}
